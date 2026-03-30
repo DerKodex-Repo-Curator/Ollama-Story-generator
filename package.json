@@ -1,0 +1,27 @@
+{
+  "name": "story-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^25.5.0",
+    "axios": "^1.14.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.5"
+  }
+}
